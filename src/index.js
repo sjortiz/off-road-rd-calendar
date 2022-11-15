@@ -71,9 +71,15 @@ class App extends Component {
       {
         id: 7,
         title: 'Team ford camping',
-        start: new Date(2022, 12-1, 02, 8, 0, 0),
-        end: new Date(2022, 12-1, 04, 18, 0, 0),
-     }
+        start: new Date(2022, 12-1, 2, 8, 0, 0),
+        end: new Date(2022, 12-1, 4, 18, 0, 0),
+     },
+     {
+      id: 8,
+      title: 'Paseo: ruta del pescado (3ro)',
+      start: new Date(2022, 11-1, 27, 8, 0, 0),
+      end: new Date(2022, 11-1, 27, 18, 0, 0),
+   }
     ]
     this.state = {
       name: 'React',
