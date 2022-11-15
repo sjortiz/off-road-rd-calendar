@@ -67,7 +67,13 @@ class App extends Component {
          title: 'Rally de la mujer (2do)',
          start: new Date(2023, 11-1, 12, 9, 0, 0),
          end: new Date(2023, 11-1, 12, 18, 0, 0),
-      }
+      },
+      {
+        id: 7,
+        title: 'Team ford camping',
+        start: new Date(2022, 12-1, 02, 8, 0, 0),
+        end: new Date(2022, 12-1, 04, 18, 0, 0),
+     }
     ]
     this.state = {
       name: 'React',
